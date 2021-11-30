@@ -26,7 +26,7 @@ namespace DtmTccSample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDtmcli(dtm => dtm.DtmUrl = "http://192.168.5.9:8080");
+            services.AddDtmcli(dtm => dtm.DtmUrl = "http://192.168.44.146:8080");
 
             services.AddControllers();
 
